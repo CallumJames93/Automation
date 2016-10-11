@@ -24,6 +24,8 @@ public class Dropdowns {
 		catch (IndexOutOfBoundsException e) {
 	    System.out.println("Test Failed: Europe was not selected !");
 		}
+		
+		driver.quit();
 
 	}
 
